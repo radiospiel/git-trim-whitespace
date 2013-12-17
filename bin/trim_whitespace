@@ -1,0 +1,16 @@
+#!/bin/sh
+if ! [ -e $0.bin ]; then
+	
+	die() {
+		echo $*
+		exit 1
+	}
+
+	which make 2>&1 > /dev/null || die "Missing make binary"
+	which flex 2>&1 > /dev/null || die "Missing flex binary"
+
+	flex -o $0.c $0.fl 
+	cc -o $0.bin $0.c -Os -lfl
+fi
+
+exec $0.bin
