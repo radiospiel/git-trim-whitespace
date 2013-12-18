@@ -1,6 +1,6 @@
-1. Install the gem
+1. Download and install the package:
 
-        gem install git-trim-whitespace
+        make
         
 Make sure you have all preliminaries installed. This includes flex, make, and cc.
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env jit flex
+
 %%
 
 [ ]+\n             { fputs("\n", yyout); }
