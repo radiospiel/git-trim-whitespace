@@ -1,7 +1,7 @@
 # encoding: utf-8
 Gem::Specification.new do |gem|
   gem.name    = 'git-trim-whitespace'
-  gem.version = '0.1'
+  gem.version = '0.1.1'
   gem.executables = %w[ trim_whitespace ]
   
   gem.summary = "Trim whitespaces on git checkins"
