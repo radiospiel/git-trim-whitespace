@@ -1,7 +1,8 @@
 1. Download and install the package:
 
-        make
-        
+        make && make install
+
+The installation script installs the binaries into /usr/local/bin.
 Make sure you have all preliminaries installed. This includes flex, make, and cc.
 
 2. Make a `.gitattributes` file in your project root with these contents:

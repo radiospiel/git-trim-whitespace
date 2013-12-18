@@ -1,3 +1,6 @@
 pkg
 bin/trim_whitespace.bin
 bin/trim_whitespace.c
+bin/trim_whitespace
+src/lex.yy.c
+tests/*.diff
